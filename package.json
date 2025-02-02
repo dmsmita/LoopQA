@@ -1,0 +1,22 @@
+{
+  "name": "loopqa",
+  "version": "1.0.0",
+  "description": "LoopQA Technical Evaluation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmsmita/LoopQA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmsmita/LoopQA/issues"
+  },
+  "homepage": "https://github.com/dmsmita/LoopQA#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0"
+  }
+}

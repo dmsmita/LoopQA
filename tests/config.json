@@ -1,0 +1,94 @@
+{
+    "config" : {
+        "url": "https://animated-gingersnap-8cf7f2.netlify.app/",
+        "username": "admin",
+        "password": "password123"
+    },
+
+    "testCases":
+    [
+        {
+        "name": "Test Case 1",
+    
+        "action": {
+            "navigate_to": "Web Application"
+        },
+        
+        "assertion" :{
+            "column_name": "To Do",
+            "task_name": "Implement user authentication",
+            "tags" :["Feature", "High Priority"]
+            }
+        },
+
+        {
+            "name": "Test Case 2",
+        
+            "action": {
+            "navigate_to": "Web Application"
+            },
+            
+            "assertion" :{
+                "column_name": "To Do",
+                "task_name": "Fix navigation bug",
+                "tags" :["Bug"]
+            }
+        },
+
+        {
+            "name": "Test Case 3",
+        
+            "action": {
+            "navigate_to": "Web Application"
+            },
+            
+            "assertion" :{
+                "column_name": "In Progress",
+                "task_name": "Design system updates",
+                "tags" :["Design"]
+            }
+        },
+
+        {
+            "name": "Test Case 4",
+        
+            "action": {
+            "navigate_to": "Mobile Application"
+            },
+            
+            "assertion" :{
+                "column_name": "To Do",
+                "task_name": "Push notification system",
+                "tags" :["Feature"]
+            }
+        },
+
+        {
+            "name": "Test Case 5",
+        
+            "action": {
+            "navigate_to": "Mobile Application"
+            },
+            
+            "assertion" :{
+                "column_name": "In Progress",
+                "task_name": "Offline mode",
+                "tags" :["Feature", "High Priority"]
+            }
+        },
+
+        {
+            "name": "Test Case 6",
+        
+            "action": {
+            "navigate_to": "Mobile Application"
+            },
+            
+            "assertion" :{
+                "column_name": "Done",
+                "task_name": "App icon design",
+                "tags" :["Design"]
+            }
+        }
+    ]
+}       
